@@ -7,10 +7,10 @@ package model;
 public class Animal {
     private int cod_Animal;
     private String nome_Animal;
-    private String sexo_Animal; //bool?
+    private char sexo_Animal; //bool?
     private String especie;
     
-    public Animal(int cod_Animal, String nome_Animal, String sexo_Animal, String especie) {
+    public Animal(int cod_Animal, String nome_Animal, char sexo_Animal, String especie) {
         this.cod_Animal = cod_Animal;
         this.nome_Animal = nome_Animal;
         this.sexo_Animal = sexo_Animal;
@@ -33,7 +33,7 @@ public class Animal {
         return sexo_Animal;
     }
 
-    public void setSexo_Animal(String sexo_Animal) {
+    public void setSexo_Animal(char sexo_Animal) {
         this.sexo_Animal = sexo_Animal;
     }
 
