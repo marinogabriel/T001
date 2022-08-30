@@ -1,9 +1,6 @@
 package model;
 
-/**
- *
- * @author g247455
- */
+
 public class Cliente {
     private int cod_Cliente;
     private String end_Cliente; //decompor?

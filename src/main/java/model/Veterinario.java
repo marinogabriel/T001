@@ -1,9 +1,6 @@
 package model;
 
-/**
- *
- * @author g247455
- */
+
 public class Veterinario {
     private int cod_Veterinario;
     private String nome_Veterinario;

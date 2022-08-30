@@ -1,9 +1,7 @@
 package model;
 import java.time.LocalDate; //yyyy-MM-dd --> fazer o formato data
-/**
- *
- * @author g247455
- */
+
+
 public class Tratamento {
     private int cod_Tratamento;
     private LocalDate data_ini;

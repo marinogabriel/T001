@@ -1,9 +1,6 @@
 package model;
 
-/**
- *
- * @author g247455
- */
+
 public class Animal {
     private int cod_Animal;
     private String nome_Animal;
@@ -29,7 +26,7 @@ public class Animal {
         this.nome_Animal = nome_Animal;
     }
 
-    public String getSexo_Animal() {
+    public char getSexo_Animal() {
         return sexo_Animal;
     }
 
@@ -46,5 +43,3 @@ public class Animal {
     }
 
 }
-
-
